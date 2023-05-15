@@ -9,4 +9,4 @@ const createCategoryController = new CreateCategoryController(
   createCategoryUseCase,
 );
 
-export { createCategoryController, createCategoryUseCase };
+export { createCategoryController };
