@@ -1,5 +1,5 @@
 class ImportCategoryUseCase {
-  execute(file: unknown) {
+  execute(file: Express.Multer.File): void {
     console.log(file);
   }
 }
